@@ -11,8 +11,8 @@ const Home = () => {
                 <div className="row">
                     <div className="col-10 mx-auto">
                       <div className="row">
-                        <div className="col-md-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
-                          <h1>Hello ! 👋🏻 </h1><h1 className="mt-3">My name is <strong className="brand-name">Yash Raj.</strong></h1>
+                        <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
+                          <h1>Hello ! <span className="wave">👋🏻</span> </h1><h1 className="mt-3">My name is <strong className="brand-name">Yash Raj.</strong></h1>
                           <h2 className="my-3">
                           <div style={{ textAlign: "left" }}>
                           <Type />

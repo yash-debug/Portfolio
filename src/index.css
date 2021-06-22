@@ -11,10 +11,8 @@ body {
 
 .navbar-brand {
   font-size: 1.9rem !important;
-  color: #565387 !important;
-  border-radius: 10px;
-  border: 2px solid;
-  padding: 0px 5px 0px 5px;
+  color: #020202 !important;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .navbar a {
@@ -38,9 +36,19 @@ body {
 }
 
 .header-img {
-  margin-top: 60px;
+  margin-top: 30px;
   text-align: right;
 }
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+
 
 @media ( max-width: 991px ) {
 
@@ -70,3 +78,30 @@ code {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
