@@ -3,7 +3,6 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Navbar from './components/Navbar'
-import Footer from './components/Footer'
 import './App.css'
 import { Route, Switch, Redirect } from 'react-router-dom'
 
@@ -20,7 +19,7 @@ const App = () => {
               <Route exact path='/Contact' component={Contact} />
               <Redirect to="/" />
             </Switch>
-          <Footer />
+          
       </> 
   );
 };

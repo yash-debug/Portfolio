@@ -3,15 +3,17 @@ body {
   font-family: 'Mulish', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282828;
+  color: aliceblue;
 }
 
 .navbar {
-  background-color: white !important;
+  background-color: #282828!important;
 }
 
 .navbar-brand {
   font-size: 1.9rem !important;
-  color: #020202 !important;
+  color: yellow !important;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -20,19 +22,34 @@ body {
   text-transform: capitalize;
 }
 
-.navbar a:hover {
-  color: #565387 !important;
+.navbar a {
+  color: yellow;
+}
 
+.nav-link {
+  color: aliceblue !important;
+  margin-left: 15px;
+}
+
+.navbar a:hover {
+  color: white !important;
 }
 
 .menu_active {
   font-weight: bold;
-  border-bottom: 1px solid #565387;
+  border-bottom: 1px solid yellow;
 } 
 
 .know-more {
+  color: yellow;
   border-radius: 50px;
   border: 1px solid;
+}
+
+.know-more:hover {
+  color: white;
+  border-radius: 50px;
+  border-color: white;
 }
 
 .header-img {
@@ -63,11 +80,11 @@ body {
 }
 
 .footer {
-  position: fixed;
+  position:fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(43, 41, 41);
+  background-color: #222629;
   color: rgb(253, 251, 251);
   text-align: center;
   padding-top: 15px;

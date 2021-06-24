@@ -2,6 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 import web from "../components/images/yash.png"
 import Type from './Type';
+import Footer from './Footer';
 
 const Home = () => {
     return (
@@ -32,8 +33,10 @@ const Home = () => {
                       </div>     
                 </div>
             </div>
-
-          </section>  
+          </section>
+          <div>
+          <Footer />
+          </div>  
         </>
     )
 }
