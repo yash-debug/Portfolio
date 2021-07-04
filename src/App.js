@@ -10,7 +10,6 @@ import { Route, Switch, Redirect } from 'react-router-dom'
 const App = () => {
   return (
       <>
-
           <Navbar />
             <Switch>
               <Route exact path='/' component={Home} />
@@ -19,6 +18,8 @@ const App = () => {
               <Route exact path='/Contact' component={Contact} />
               <Redirect to="/" />
             </Switch>
+            
+            
           
       </> 
   );
