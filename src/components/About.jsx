@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import nap from "../components/images/boy.png"
+import nap from "../components/images/boy.png";
+import Github from "./Github";
 
 function About() {
   return (
@@ -78,6 +79,7 @@ function About() {
           </Col>
         </Row>
 
+        <Github />
       </Container>
     </Container>
   );
