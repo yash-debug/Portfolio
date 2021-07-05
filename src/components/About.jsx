@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import nap from "../components/images/boy.png";
 import Github from "./Github";
+import Footer from "./Footer";
+import Skills from "./Skills";
 
 function About() {
   return (
@@ -68,19 +70,19 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h2 className="text-center" style={{ fontSize: "3em", paddingBottom: "20px", color : "yellow" }}><strong>My Skills</strong></h2>
+            <h2 className="text-center" style={{ fontSize: "3em", paddingBottom: "1px", color : "yellow" }}><strong>My Skills</strong></h2>
           </Col>
           <Col
-            md={5}
-            style={{ paddingTop: "40px", paddingBottom: "40px" }}
+            md={10}
+            style={{ paddingTop: "10px", paddingBottom: "40px" }}
             className="about-img"
           >
-            
+          <Skills />
           </Col>
         </Row>
-
         <Github />
       </Container>
+      <Footer />
     </Container>
   );
 }

@@ -41,8 +41,8 @@ export default function Navbar() {
                                         </li>
 
                                         <li className="nav-item">
-                                            <NavLink activeClassName='menu_active' className="nav-link" to="/contact">
-                                            <RiPagesLine style={{ marginBottom: "5px" }} /> Resume</NavLink>
+                                        <a  className="nav-link" aria-current="page" href="https://cdn.statically.io/gh/yash-debug/Resume/b6aee719f8a10e8315fed6bce4373371e7f6311d/YrResume.pdf"  target="_blank" rel="noreferrer noopener" >
+                                            <RiPagesLine style={{ marginBottom: "5px" }} /> Resume</a>
                                         </li>
                                         <li className="nav-item">
                                             <a  className="nav-link github" aria-current="page" href="https://github.com/yash-debug"  target="_blank" rel="noreferrer noopener" >
@@ -60,3 +60,4 @@ export default function Navbar() {
         </>
             )
 }
+

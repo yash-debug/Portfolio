@@ -2,7 +2,6 @@ import React from 'react'
 import web from "../components/images/code.png"
 import Type from './Type';
 import Particle from './Particle';
-import Footer from './Footer';
 
 const Home = () => {
     return (
@@ -33,7 +32,9 @@ const Home = () => {
 
             </div>
           </section>
-          <Footer />
+          <footer class="footer footer-home">
+                <p>Developed by <strong style={{ color : 'yellow'}}>Yash Raj</strong> | © 2021 YRSC</p>
+            </footer>
         </>
     )
 }
