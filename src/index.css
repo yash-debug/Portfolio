@@ -126,6 +126,10 @@ img.animated {
     position: fixed;
   }
 
+  #project-card {
+    margin-right: 34px;
+  }
+
 }
 
 #github-main {
@@ -217,4 +221,17 @@ code {
   transform: scale(1.05) !important;
   overflow: hidden !important;
   border: 2.2px solid yellow !important;
+}
+
+.project-card {
+  color: white !important;
+}
+
+.project-card-view {
+  background-color: #222629;
+  border: 1px solid yellow;
+}
+
+.card-img {
+  padding: 10px 10px 10px 10px !important; 
 }
