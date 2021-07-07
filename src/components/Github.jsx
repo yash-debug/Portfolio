@@ -11,10 +11,10 @@ export default function Github() {
                 </h1>
                 <GitHubCalendar id="github-main"
                     username="yash-debug"
-                    blockSize={15}
-                    blockMargin={5}
+                    blockSize={20}
+                    blockMargin={4}
                     color="hsl(47, 100%, 53%)"
-                    fontSize={16}
+                    fontSize={15}
                 />
             </Row>
         </div>

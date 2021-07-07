@@ -6,6 +6,7 @@ import { MdCode } from "react-icons/md";
 import { RiPagesLine } from "react-icons/ri";
 import { FiGithub } from "react-icons/fi";
 import Particle from './Particle';
+import { AiOutlineLinkedin, AiOutlineInstagram } from 'react-icons/ai'
 
 export default function Navbar() {
     return (
@@ -24,6 +25,7 @@ export default function Navbar() {
                                 </button>
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                                        
                                         <li className="nav-item">
                                             <NavLink  className="nav-link" aria-current="page" to="/" >
                                                 <AiOutlineHome style={{ marginBottom: "5px" }} /> Home
@@ -47,6 +49,18 @@ export default function Navbar() {
                                         <li className="nav-item">
                                             <a  className="nav-link github" aria-current="page" href="https://github.com/yash-debug"  target="_blank" rel="noreferrer noopener" >
                                                 <FiGithub style={{ marginBottom: "5px"}} />
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a  className="nav-link github" aria-current="page" href="https://www.linkedin.com/in/yashrajsinghchouhan5333"  target="_blank" rel="noreferrer noopener" >
+                                            <AiOutlineLinkedin style={{ marginBottom: "5px"}} />
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a  className="nav-link github" aria-current="page" href="https://www.instagram.com/yashraj.exe"  target="_blank" rel="noreferrer noopener" >
+                                            <AiOutlineInstagram style={{ marginBottom: "5px"}} />
                                             </a>
                                         </li>
                                     </ul>

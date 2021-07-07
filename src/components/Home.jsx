@@ -17,6 +17,7 @@ const Home = () => {
                           <h2 className="my-5">
                           <div style={{ textAlign: "left"}} >
                           <Type />
+                        
                         </div>
                           </h2>
                         </div>

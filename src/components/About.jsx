@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import nap from "../components/images/boy.png";
 import Github from "./Github";
 import Footer from "./Footer";
-import Skills from "./Skills";
+import Skills from "./Skills"; 
 
 function About() {
   return (
@@ -23,7 +23,7 @@ function About() {
               
             </h1>
             <h5>
-            Hi Everyone, I am <strong style={{ color : "yellow"}} className="purple">Yash Raj</strong> from <strong style={{ color : "yellow"}} className="purple">Udaipur, Rajasthan.</strong>
+            Hi Everyone, I am <strong style={{ color : "yellow"}} className="purple">Yash Raj Singh Chouhan</strong> from <strong style={{ color : "yellow"}} className="purple">Udaipur, Rajasthan.</strong>
             </h5>
             <h5>
             I am pursuing B.tech in Computer Science from GITS Udaipur.

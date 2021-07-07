@@ -104,7 +104,6 @@ img.animated {
   }
 
   .github {
-    margin-left: 50px !important;
     border: none;
   }
 
@@ -118,7 +117,7 @@ img.animated {
   }
 
   .nav-item {
-    margin-left: 100px;
+    justify-content: center !important;
   }
 
   .footer-home {
@@ -133,8 +132,7 @@ img.animated {
 }
 
 #github-main {
-  justify-content: center;
-  justify-items: center;
+
 }
 
 #tsparticles {
@@ -233,5 +231,5 @@ code {
 }
 
 .card-img {
-  padding: 10px 10px 10px 10px !important; 
+  padding: 20px 15px 15px 15px !important; 
 }

@@ -4,7 +4,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "./Particle";
 import { AiFillGithub } from 'react-icons/ai';
 import fba from "../components/images/blog.png";
-import myport from "../components/images/portfolio.png"
+import myport from "../components/images/portfolio.png";
+import eco from "../components/images/ecom.jpg";
+import fce from "../components/images/face.jpeg";
 
 const Projects = () => {
     return (
@@ -20,7 +22,7 @@ const Projects = () => {
                 <Row style={{ justifyContent: "center", paddingBottom: "30px", marginLeft: "20px", marginTop: "20px" }}>
                     <Col md={3} id="project-card" className="project-card" style={{marginLeft: "10px", marginTop: "20px", paddingBottom: "20px"}}>
                         <Card className="project-card-view">
-                            <Card.Img className=".card-img" variant="top" src={fba} alt="card-img" />
+                            <Card.Img className="card-img" variant="top" src={fba} alt="card-img" />
                             <Card.Body>
                                 <Card.Title>Blogging Web App.</Card.Title>
                                 <Card.Text style={{ textAlign: "justify" }}>
@@ -36,14 +38,29 @@ const Projects = () => {
 
                     <Col md={3} id="project-card" className="project-card" style={{marginLeft: "10px", marginTop: "20px", paddingBottom: "20px"}}>
                         <Card className="project-card-view">
-                            <Card.Img variant="top" src="" alt="card-img" />
+                            <Card.Img className="card-img" variant="top" src={myport} alt="card-img" />
+                            <Card.Body>
+                                <Card.Title>My Portfolio.</Card.Title>
+                                <Card.Text style={{ textAlign: "justify" }}>
+                                Created my personal portfolio using JS library React. This is fully responsive portfolio created using the React-bootstrap.
+                                </Card.Text>
+                                <Button variant="primary" href="" target="_blank">
+                                <AiFillGithub />
+                                </Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+
+                    <Col md={3} id="project-card" className="project-card" style={{marginLeft: "10px", marginTop: "20px", paddingBottom: "20px"}}>
+                        <Card className="project-card-view">
+                            <Card.Img className="card-img" variant="top" src={eco} alt="card-img" />
                             <Card.Body>
                                 <Card.Title>E-Commerce website.</Card.Title>
                                 <Card.Text style={{ textAlign: "justify" }}>
                                 This is a E-commerce app created using Python framework Flask and Bootstrap. The database used in this app is MySQL. It has login and logout functionality for both admin and user.
                                 It also has the dashboard for admin for all the details of their products etc.
                                 </Card.Text>
-                                <Button variant="primary" href="" target="_blank">
+                                <Button variant="primary" href="https://github.com/yash-debug/Ecom" target="_blank">
                                 <AiFillGithub />
                                 </Button>
                             </Card.Body>
@@ -52,26 +69,11 @@ const Projects = () => {
 
                     <Col md={3} id="project-card" className="project-card" style={{marginLeft: "10px", marginTop: "20px", paddingBottom: "20px"}}>
                         <Card className="project-card-view">
-                            <Card.Img variant="top" src="" alt="card-img" />
+                            <Card.Img className="card-img" variant="top" src={fce} alt="card-img" />
                             <Card.Body>
                                 <Card.Title>Face Recognition App.</Card.Title>
                                 <Card.Text style={{ textAlign: "justify" }}>
                                     Using one of the most powerful libraries in python "open CV", this application can detect human face.
-                                </Card.Text>
-                                <Button variant="primary" href="" target="_blank">
-                                <AiFillGithub />
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-
-                    <Col md={3} id="project-card" className="project-card" style={{marginLeft: "10px", marginTop: "20px", paddingBottom: "20px"}}>
-                        <Card className="project-card-view">
-                            <Card.Img variant="top" src={myport} alt="card-img" />
-                            <Card.Body>
-                                <Card.Title>My Portfolio.</Card.Title>
-                                <Card.Text style={{ textAlign: "justify" }}>
-                                Created my personal portfolio using JS library React. This is fully responsive portfolio created using the React-bootstrap.
                                 </Card.Text>
                                 <Button variant="primary" href="" target="_blank">
                                 <AiFillGithub />
