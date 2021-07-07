@@ -42,7 +42,7 @@ const Projects = () => {
                             <Card.Body>
                                 <Card.Title>My Portfolio.</Card.Title>
                                 <Card.Text style={{ textAlign: "justify" }}>
-                                Created my personal portfolio using JS library React. This is fully responsive portfolio created using the React-bootstrap.
+                                Created my personal portfolio using JS library React and bootstrap. This is fully responsive portfolio created using the React-bootstrap. It is deployed on github pages.
                                 </Card.Text>
                                 <Button variant="primary" href="" target="_blank">
                                 <AiFillGithub />

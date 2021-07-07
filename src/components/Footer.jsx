@@ -1,7 +1,6 @@
 import React from 'react';
 import Particle from './Particle';
-import { FiGithub } from 'react-icons/fi';
-import { AiOutlineLinkedin, AiOutlineInstagram } from 'react-icons/ai'
+
 
 function Footer() {
     return (
